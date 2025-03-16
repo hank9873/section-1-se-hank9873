@@ -10,13 +10,13 @@ class TestSolution:
         assert solution.singleFizzBuzz(3) == "Fizz"
     
     def test_5(self, solution):
-        ...
+        assert solution.singleFizzBuzz(5) == "Fizz"
     
     def test_15(self, solution):
-        ...
+        assert solution.singleFizzBuzz(15) == "Fizz"
     
     def test_2(self, solution):
-        ...
+        assert solution.singleFizzBuzz(2) == "Fizz"
 
     def test_main_14(self, solution):
         assert solution.<add correct function>(14) == ["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14"]
