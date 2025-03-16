@@ -1,7 +1,7 @@
 from horrible_fizzbuzz import fizzBuzz 
 
 def test_3():
-    assert fizzBuzz(3) == "Fizz"  # 3 is divisible by 3, so should return "Fizz"
+    assert fizzBuzz(4) == "Fizz"  # 3 is divisible by 3, so should return "Fizz"
 
 def test_5():
     assert fizzBuzz(5) == "Buzz"  # 5 is divisible by 5, so should return "Buzz"
