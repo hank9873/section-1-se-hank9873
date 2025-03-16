@@ -2,3 +2,6 @@ version: '3'
 
 services:
   web:
+    image: nginx:latest  # Specify the image to use for the web service
+    ports:
+    5000:5000
