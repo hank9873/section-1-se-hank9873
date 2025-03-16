@@ -7,10 +7,10 @@ def solution():
 
 class TestSolution:
     def test_3(self, solution):
-        assert solution.singleFizzBuzz(5) == "Fizz"
+        assert solution.singleFizzBuzz(3) == "Fizz"
     
     def test_5(self, solution):
-        assert solution.singleFizzBuzz(3) == "Buzz"  # Corrected expected value to "Buzz"
+        assert solution.singleFizzBuzz(5) == "Buzz"  # Corrected expected value to "Buzz"
     
     def test_15(self, solution):
         assert solution.singleFizzBuzz(15) == "FizzBuzz"  # Corrected expected value to "FizzBuzz"
